@@ -23,3 +23,12 @@ puts boolean_array
 ## starts counting at zero. 
 ##So, if you have the array cats = ("Milo", "Isobel", "Ryan")
 ##Then Milo would be in index position 0, Isobel =1, and Ryan =3.
+
+## Additional array method -
+## Using `.insert` you can add a new element to an array in any position.
+## An example would be...
+
+cats = ["Milo", "Isobel"]
+cats.insert(1, "Ryan")
+puts cats
+      
